@@ -1,0 +1,438 @@
+#fondo {
+  background-color: #f5f5f5; }
+
+#rojo {
+  background-color: red; }
+
+#blanco {
+  background-color: white; }
+
+#negro {
+  background-color: black; }
+
+#morado {
+  background-color: rebeccapurple; }
+
+#amarillo {
+  background-color: yellow; }
+
+#btn1 {
+  background-color: #38535f; }
+
+#btn2 {
+  background-color: #32ab8b; }
+
+e2e2e2
+body {
+  margin: 0;
+  padding: 0; }
+
+.contenedorCabeza {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .contenedorCabeza .contenedorCabeza1 {
+    align-content: center;
+    color: #32ab8b;
+    font-size: 18px;
+    flex-grow: 1; }
+    .contenedorCabeza .contenedorCabeza1 h1 {
+      margin-left: 3vw;
+      font-family: 'Open Sans'; }
+  .contenedorCabeza .contenedorCabeza2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-grow: 1; }
+
+.btn {
+  height: 50px;
+  width: 240px;
+  color: white;
+  border-radius: 15px;
+  font-size: 18px;
+  margin-right: 1vw; }
+
+.btn2 {
+  height: 50px;
+  width: 150px;
+  color: white;
+  border-radius: 15px;
+  font-size: 18px;
+  margin-right: 4vw; }
+
+@media screen and (max-width: 950px) {
+  .contenedorCabeza1 {
+    align-content: center;
+    color: #32ab8b;
+    text-align: center;
+    font-size: 18px;
+    flex-grow: 1; }
+    .contenedorCabeza1 h1 {
+      margin-left: 0vw; }
+
+  .contenedorCabeza2 {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+  .btn {
+    height: 50px;
+    width: 200px;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-right: 1vw;
+    flex-grow: 1; }
+
+  .btn2 {
+    height: 50px;
+    width: 100px;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    flex-grow: 1;
+    margin-right: 0vw; }
+
+  .parte1 {
+    width: 300px;
+    height: 300px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1; }
+
+  .parte11 {
+    width: auto;
+    height: auto;
+    align-items: center;
+    text-align: center; }
+    .parte11 h1 {
+      text-align: center; }
+    .parte11 p {
+      text-align: center; }
+    .parte11 .btn {
+      height: 50px;
+      width: 200px;
+      color: white;
+      border-radius: 8px;
+      font-size: 18px;
+      margin-left: 9vh;
+      margin-bottom: 2vw; }
+
+  .parte12 {
+    width: 300px;
+    height: 300px;
+    flex-grow: 1;
+    flex-grow: 1; } }
+.contenedorParte1 {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-grow: 1; }
+  .contenedorParte1 .parte1 {
+    width: 500px;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1; }
+  .contenedorParte1 .parte11 {
+    width: auto;
+    height: auto;
+    text-align: left;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 23px; }
+    .contenedorParte1 .parte11 p {
+      font-family: 'Open Sans';
+      font-size: 33px; }
+  .contenedorParte1 .parte12 {
+    margin-top: 6vw;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1; }
+    .contenedorParte1 .parte12 div#part2 {
+      display: block;
+      padding-top: 0px;
+      padding-right: 169px;
+      padding-left: 170px;
+      width: 92px;
+      height: 650px;
+      background: #F5F5F5; }
+      .contenedorParte1 .parte12 div#part2 table {
+        border-collapse: collapse;
+        margin-left: -167px; }
+        .contenedorParte1 .parte12 div#part2 table tr td#im5, .contenedorParte1 .parte12 div#part2 table tr td#im6, .contenedorParte1 .parte12 div#part2 table tr td#im7 {
+          text-align: center;
+          width: auto;
+          background: #455C6A; }
+        .contenedorParte1 .parte12 div#part2 table tr label#CARRO {
+          position: relative;
+          font-family: 'Open Sans', 'Segoe UI';
+          font-weight: bold;
+          font-size: 12pt;
+          color: #455C6A;
+          top: -35px;
+          left: 25px; }
+        .contenedorParte1 .parte12 div#part2 table tr label#CASA {
+          position: relative;
+          font-family: 'Open Sans', 'Segoe UI';
+          font-weight: bold;
+          font-size: 12pt;
+          color: #F5F5F5;
+          top: -35px;
+          left: 2px; }
+        .contenedorParte1 .parte12 div#part2 table tr label#UNIVERSIDAD {
+          position: relative;
+          font-family: 'Open Sans', 'Segoe UI';
+          font-weight: bold;
+          font-size: 12pt;
+          color: #F5F5F5;
+          top: -35px;
+          left: 0px; }
+        .contenedorParte1 .parte12 div#part2 table tr label#OTRO {
+          position: relative;
+          font-family: 'Open Sans', 'Segoe UI';
+          font-weight: bold;
+          font-size: 12pt;
+          color: #F5F5F5;
+          top: -35px;
+          left: 0px; }
+      .contenedorParte1 .parte12 div#part2 form#datos {
+        margin-left: -170px;
+        padding-right: 430px; }
+        .contenedorParte1 .parte12 div#part2 form#datos label#cantidad {
+          float: left;
+          font-family: 'Montserrat', Arial;
+          font-weight: bold;
+          font-size: 12pt;
+          color: #777777;
+          margin-top: 20px;
+          margin-left: 35px; }
+        .contenedorParte1 .parte12 div#part2 form#datos label#meses {
+          float: left;
+          font-family: 'Montserrat', Arial;
+          font-weight: bold;
+          font-size: 12pt;
+          color: #777777;
+          margin-top: 120px;
+          margin-left: -359px; }
+        .contenedorParte1 .parte12 div#part2 form#datos label#interesMensual {
+          float: left;
+          width: 300px;
+          font-family: 'Montserrat', Arial;
+          font-weight: bold;
+          font-size: 12pt;
+          color: #777777;
+          margin-top: 120px;
+          margin-left: -250px; }
+        .contenedorParte1 .parte12 div#part2 form#datos label#linea1 {
+          float: left;
+          width: 365px;
+          font-family: 'Montserrat', Arial;
+          font-weight: bold;
+          font-size: 12pt;
+          color: #777777;
+          margin-top: 200px;
+          margin-left: -416px;
+          opacity: 0.5; }
+        .contenedorParte1 .parte12 div#part2 form#datos label#cuota {
+          float: left;
+          font-family: 'Montserrat', Arial;
+          font-weight: bold;
+          font-size: 10pt;
+          color: #C8C8C8;
+          margin-top: 225px;
+          margin-left: -400px; }
+        .contenedorParte1 .parte12 div#part2 form#datos label#interesAPagar {
+          float: left;
+          font-family: 'Montserrat', Arial;
+          font-weight: bold;
+          font-size: 10pt;
+          color: #C8C8C8;
+          margin-top: 225px;
+          margin-left: -319px; }
+        .contenedorParte1 .parte12 div#part2 form#datos label#totalAPagar {
+          float: left;
+          font-family: 'Montserrat', Arial;
+          font-weight: bold;
+          font-size: 10pt;
+          color: #C8C8C8;
+          margin-top: 225px;
+          margin-left: -170px; }
+        .contenedorParte1 .parte12 div#part2 form#datos label#pago1 {
+          float: left;
+          font-family: 'Open Sans', 'Segoe UI';
+          font-weight: bold;
+          font-size: 18pt;
+          color: #119E76;
+          margin-top: 245px;
+          margin-left: -412px; }
+        .contenedorParte1 .parte12 div#part2 form#datos label#pago2 {
+          float: left;
+          font-family: 'Open Sans', 'Segoe UI';
+          font-weight: bold;
+          font-size: 18pt;
+          color: #119E76;
+          margin-top: 245px;
+          margin-left: -312.5px; }
+        .contenedorParte1 .parte12 div#part2 form#datos label#pago3 {
+          float: left;
+          font-family: 'Open Sans', 'Segoe UI';
+          font-weight: bold;
+          font-size: 18pt;
+          color: #119E76;
+          margin-top: 245px;
+          margin-left: -171px; }
+        .contenedorParte1 .parte12 div#part2 form#datos label#linea2 {
+          float: left;
+          width: 365px;
+          font-family: 'Montserrat', Arial;
+          font-weight: bold;
+          font-size: 12pt;
+          color: #777777;
+          margin-top: 280px;
+          margin-left: -416px;
+          opacity: 0.5; }
+        .contenedorParte1 .parte12 div#part2 form#datos label#parrafo8 {
+          float: left;
+          text-align: center;
+          width: 365px;
+          font-family: 'Open Sans', 'Segoe UI';
+          font-weight: lighter;
+          font-size: 13pt;
+          color: #8D8D8D;
+          margin-top: 320px;
+          margin-left: -416px; }
+        .contenedorParte1 .parte12 div#part2 form#datos input#text1 {
+          height: 35px;
+          width: 365px;
+          float: left;
+          font-family: "Montserrat", Arial;
+          font-weight: bold;
+          font-size: 12pt;
+          color: #777777;
+          margin-top: 50px;
+          margin-left: -100px;
+          border: 1px solid #ebebeb;
+          border-radius: 4px 4px 4px 4px; }
+        .contenedorParte1 .parte12 div#part2 form#datos input#text2 {
+          height: 35px;
+          width: 75px;
+          float: left;
+          font-family: 'Montserrat', Arial;
+          font-weight: bold;
+          font-size: 12pt;
+          color: #777777;
+          margin-top: 150px;
+          margin-left: -366px;
+          border: 1px solid #ebebeb;
+          border-radius: 4px 4px 4px 4px; }
+        .contenedorParte1 .parte12 div#part2 form#datos input#text3 {
+          height: 35px;
+          width: 142px;
+          float: left;
+          font-family: 'Montserrat', Arial;
+          font-weight: bold;
+          font-size: 12pt;
+          color: #777777;
+          margin-top: 150px;
+          margin-left: -306px;
+          border: 1px solid #ebebeb;
+          border-radius: 4px 4px 4px 4px; }
+        .contenedorParte1 .parte12 div#part2 form#datos button#btn5 {
+          float: left;
+          text-align: center;
+          width: 250px;
+          height: 50px;
+          font-family: 'Montserrat', Arial;
+          font-weight: bold;
+          font-size: 13pt;
+          background: #435869;
+          color: white;
+          margin-top: 400px;
+          margin-left: -365px;
+          border: none;
+          border-radius: 10px 10px 10px 10px;
+          cursor: pointer; }
+
+.medio {
+  display: flex;
+  justify-content: center; }
+  .medio medio1 {
+    align-content: center;
+    align-items: center; }
+  .medio h1 {
+    margin-top: 11vh;
+    text-align: center;
+    color: #00B588;
+    display: flex;
+    justify-content: center;
+    font-family: 'Open sans', Arial;
+    font-weight: bold;
+    font-size: 3.7vw; }
+  .medio h2 {
+    text-align: center;
+    color: silver;
+    justify-content: center;
+    font-family: 'Open Sans', 'Segoe UI';
+    font-weight: lighter;
+    font-size: 2.6vw;
+    margin: -35px 0px -6px 0px; }
+  .medio .imgtam {
+    margin-top: 6vh;
+    height: 20vw;
+    width: 60vw; }
+
+.contenedorParte2 {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-grow: 1; }
+  .contenedorParte2 .bajo2 {
+    width: auto; }
+    .contenedorParte2 .bajo2 h1 {
+      margin-top: 5vw;
+      font-family: 'Open Sans';
+      color: #32ab8b;
+      font-size: 3.6vw; }
+    .contenedorParte2 .bajo2 p {
+      color: #a6a7a6;
+      font-size: 1.9vw; }
+  .contenedorParte2 .bajo21 {
+    width: auto; }
+    .contenedorParte2 .bajo21 table {
+      margin-top: 3.5vw;
+      text-align: left; }
+      .contenedorParte2 .bajo21 table .th1 {
+        color: #575757;
+        font-family: 'Open Sans', 'Segoe UI';
+        font-size: 18px; }
+      .contenedorParte2 .bajo21 table .p {
+        color: white; }
+      .contenedorParte2 .bajo21 table .th2 {
+        color: #465c54;
+        font-size: 18px;
+        font-family: 'Open Sans', 'Segoe UI'; }
+      .contenedorParte2 .bajo21 table .th3 {
+        color: #74807b;
+        font-size: 18px;
+        font-family: 'Open Sans', 'Segoe UI'; }
+
+/*# sourceMappingURL=estilos.css.map */

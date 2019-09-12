@@ -1,0 +1,528 @@
+//+++++++++++++++++++++++++++COLORES+++++++++++++++++++++++++++//
+//+++++++++++++++++++++++++++COLORES+++++++++++++++++++++++++++//
+//+++++++++++++++++++++++++++COLORES+++++++++++++++++++++++++++//
+#fondo{
+    background-color: #f5f5f5;
+}
+#rojo{
+    background-color: red;
+}
+#blanco{
+    background-color: white;
+}
+#negro{
+    background-color: black;
+}
+#morado{
+    background-color: rebeccapurple;
+}
+#amarillo{
+    background-color: yellow;
+}
+#btn1{
+    background-color: #38535f;
+}
+#btn2{
+    background-color: #32ab8b;
+}
+ e2e2e2
+//+++++++++++++++++++++++++++CABEZA+++++++++++++++++++++++++++//
+//+++++++++++++++++++++++++++CABEZA+++++++++++++++++++++++++++//
+//+++++++++++++++++++++++++++CABEZA+++++++++++++++++++++++++++//
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorCabeza{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .contenedorCabeza1{
+        align-content: center;
+        color: #32ab8b;
+        font-size: 18px;
+        flex-grow: 1;
+        h1{
+            margin-left: 3vw;
+            font-family: 'Open Sans';
+        }
+    }
+    .contenedorCabeza2{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        flex-grow: 1;
+    }
+}
+.btn{
+    height: 50px;
+    width: 240px;
+    color: white;
+    border-radius: 15px;
+    font-size: 18px;
+    margin-right: 1vw;
+}
+.btn2{
+    height: 50px;
+    width: 150px;
+    color: white;
+    border-radius: 15px;
+    font-size: 18px;
+    margin-right: 4vw;
+}
+//+++++++++++++++++++++++++++MEDIACABEZA+++++++++++++++++++++++++++//
+//+++++++++++++++++++++++++++MEDIACABEZA+++++++++++++++++++++++++++//
+//+++++++++++++++++++++++++++MEDIACABEZA+++++++++++++++++++++++++++//
+@media screen and (max-width: 950px) {
+    .contenedorCabeza1{
+        align-content: center;
+        color: #32ab8b;
+        text-align: center;
+        font-size: 18px;
+        flex-grow: 1;
+        h1{
+            margin-left: 0vw;
+        }
+    }
+   .contenedorCabeza2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .btn{
+    height: 50px;
+    width: 200px;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-right: 1vw;
+    flex-grow: 1;
+}
+.btn2{
+    height: 50px;
+    width: 100px;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    flex-grow: 1;
+    margin-right: 0vw;
+    }
+
+    .parte1{
+        width: 300px;
+        height: 300px;
+        flex-grow: 1;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-grow: 1;
+    }
+    .parte11{
+        width: auto;
+        height: auto;
+        align-items: center;
+        text-align: center;
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        .btn{
+            height: 50px;
+            width: 200px;
+            color: white;
+            border-radius: 8px;
+            font-size: 18px;
+            margin-left: 9vh;
+            margin-bottom: 2vw;
+        }
+    }
+    .parte12{
+        width: 300px;
+        height: 300px;
+        flex-grow: 1;
+        flex-grow: 1;
+    }
+}
+
+//+++++++++++++++++++++++++++PARTE1+++++++++++++++++++++++++++//
+//+++++++++++++++++++++++++++PARTE1+++++++++++++++++++++++++++//
+//+++++++++++++++++++++++++++PARTE1+++++++++++++++++++++++++++//
+.contenedorParte1{
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    
+    .parte1{
+        width: 500px;
+        height: auto;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-grow: 1;
+    }
+    .parte11{
+        width: auto;
+        height: auto;
+        text-align: left;
+        color: white;
+        font-family: 'Open Sans';
+        font-size: 23px;
+        p{
+            font-family: 'Open Sans';
+            font-size: 33px;
+        }
+    }
+    .parte12{
+        margin-top: 6vw;
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        //+++++++++++++++++++Inicio de tabla+++++++++++++++++++++++++++++++//
+        div {
+            &#part2 {
+                display: block;
+                padding-top: 0px;
+                padding-right: 169px;
+                padding-left: 170px;
+                width: 92px;
+                height: 650px;
+                background: #F5F5F5;
+                table {
+                    border-collapse: collapse; 
+                    margin-left: -167px;
+                    tr {
+                        td {                    
+                            &#im5, &#im6, &#im7 {
+                                text-align: center;                            
+                                width: auto;
+                                background: #455C6A;
+                            }                                                 
+                        }
+                        label {
+                            &#CARRO {                            
+                                position: relative;
+                                font-family: 'Open Sans', 'Segoe UI';
+                                font-weight: bold;
+                                font-size: 12pt;
+                                color: #455C6A;
+                                top: -35px;
+                                left: 25px;
+                            }
+                            &#CASA {                            
+                                position: relative;
+                                font-family: 'Open Sans', 'Segoe UI';
+                                font-weight: bold;
+                                font-size: 12pt;
+                                color: #F5F5F5;
+                                top: -35px;
+                                left: 2px;
+                            }
+                            &#UNIVERSIDAD {                            
+                                position: relative;
+                                font-family: 'Open Sans', 'Segoe UI';
+                                font-weight: bold;
+                                font-size: 12pt;
+                                color: #F5F5F5;
+                                top: -35px;
+                                left: 0px;
+                            }
+                            &#OTRO {                            
+                                position: relative;
+                                font-family: 'Open Sans', 'Segoe UI';
+                                font-weight: bold;
+                                font-size: 12pt;
+                                color: #F5F5F5;
+                                top: -35px;
+                                left: 0px;
+                            }                                                                                                 
+                        }                        
+                    }
+                }            
+                form {                
+                    &#datos {                    
+                        margin-left: -170px;
+                        padding-right: 430px;
+                        label {
+                            &#cantidad {
+                                float: left;
+                                font-family: 'Montserrat', Arial;
+                                font-weight: bold;
+                                font-size: 12pt;
+                                color: #777777;
+                                margin-top: 20px;
+                                margin-left: 35px;
+                            }
+                            &#meses {
+                                float: left;
+                                font-family: 'Montserrat', Arial;
+                                font-weight: bold;
+                                font-size: 12pt;
+                                color: #777777;
+                                margin-top: 120px;
+                                margin-left: -359px;
+                            }
+                            &#interesMensual {
+                                float: left;
+                                width: 300px;
+                                font-family: 'Montserrat', Arial;
+                                font-weight: bold;
+                                font-size: 12pt;
+                                color: #777777;
+                                margin-top: 120px;
+                                margin-left: -250px;
+                            }
+                            &#linea1 {
+                                float: left;
+                                width: 365px;
+                                font-family: 'Montserrat', Arial;
+                                font-weight: bold;
+                                font-size: 12pt;
+                                color: #777777;
+                                margin-top: 200px;
+                                margin-left: -416px;
+                                opacity: 0.5;
+                            }
+                            &#cuota {
+                                float: left;
+                                font-family: 'Montserrat', Arial;
+                                font-weight: bold;
+                                font-size: 10pt;
+                                color: 	#C8C8C8;
+                                margin-top: 225px;
+                                margin-left: -400px;
+                            }
+                            &#interesAPagar {
+                                float: left;
+                                font-family: 'Montserrat', Arial;
+                                font-weight: bold;
+                                font-size: 10pt;
+                                color: 	#C8C8C8;
+                                margin-top: 225px;
+                                margin-left: -319px;
+                            }
+                            &#totalAPagar {
+                                float: left;
+                                font-family: 'Montserrat', Arial;
+                                font-weight: bold;
+                                font-size: 10pt;
+                                color: 	#C8C8C8;
+                                margin-top: 225px;
+                                margin-left: -170px;
+                            }
+                            &#pago1 {
+                                float: left;
+                                font-family: 'Open Sans', 'Segoe UI'; 
+                                font-weight: bold;
+                                font-size: 18pt;
+                                color: 	#119E76;
+                                margin-top: 245px;
+                                margin-left: -412px;
+                            }
+                            &#pago2 {
+                                float: left;
+                                font-family: 'Open Sans', 'Segoe UI';
+                                font-weight: bold;
+                                font-size: 18pt;
+                                color: 	#119E76;
+                                margin-top: 245px;
+                                margin-left: -312.5px;
+                            }
+                            &#pago3 {
+                                float: left;
+                                font-family: 'Open Sans', 'Segoe UI';
+                                font-weight: bold;
+                                font-size: 18pt;
+                                color: 	#119E76;
+                                margin-top: 245px;
+                                margin-left: -171px;
+                            }
+                            &#linea2 {
+                                float: left;
+                                width: 365px;
+                                font-family: 'Montserrat', Arial;
+                                font-weight: bold;
+                                font-size: 12pt;
+                                color: #777777;
+                                margin-top: 280px;
+                                margin-left: -416px;
+                                opacity: 0.5;
+                            }
+                            &#parrafo8 {
+                                float: left;
+                                text-align: center;
+                                width: 365px;
+                                font-family: 'Open Sans', 'Segoe UI';
+                                font-weight: lighter;
+                                font-size: 13pt;
+                                color: 	#8D8D8D;
+                                margin-top: 320px;
+                                margin-left: -416px;
+                            }
+                        }
+                        input {
+                            &#text1 {
+                                height: 35px;
+                                width: 365px;
+                                float: left;
+                                font-family: 'Montserrat', Arial ;
+                                font-weight: bold;
+                                font-size: 12pt;
+                                color: #777777;
+                                margin-top: 50px;
+                                margin-left: -100px;
+                                border: 1px solid #ebebeb;
+                                border-radius: 4px 4px 4px 4px;
+                            }
+                            &#text2 {
+                                height: 35px;
+                                width: 75px;
+                                float: left;
+                                font-family: 'Montserrat', Arial;
+                                font-weight: bold;
+                                font-size: 12pt;
+                                color: #777777;
+                                margin-top: 150px;
+                                margin-left: -366px;
+                                border: 1px solid #ebebeb;
+                                border-radius: 4px 4px 4px 4px;
+                            }
+                            &#text3 {
+                                height: 35px;
+                                width: 142px;
+                                float: left;
+                                font-family: 'Montserrat', Arial;
+                                font-weight: bold;
+                                font-size: 12pt;
+                                color: #777777;
+                                margin-top: 150px;
+                                margin-left: -306px;
+                                border: 1px solid #ebebeb;
+                                border-radius: 4px 4px 4px 4px;
+                            }
+                        }
+                        button {
+                            &#btn5 {
+                                float: left;
+                                text-align: center;
+                                width: 250px;
+                                height: 50px;
+                                font-family: 'Montserrat', Arial;
+                                font-weight: bold;
+                                font-size: 13pt;
+                                background: #435869;
+                                color: white;
+                                margin-top: 400px;
+                                margin-left: -365px;
+                                border: none;
+                                border-radius: 10px 10px 10px 10px;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }          
+            }
+        }
+        //++++++++++++++++++++++Fin de la tabla++++++++++++++++++++++++//
+    }
+}
+//+++++++++++++++++++++++++++MEDIO+++++++++++++++++++++++++++//
+//+++++++++++++++++++++++++++MEDIO+++++++++++++++++++++++++++//
+//+++++++++++++++++++++++++++MEDIO+++++++++++++++++++++++++++//
+.medio{
+    display: flex;
+    justify-content: center;
+    medio1{
+        align-content: center;
+        align-items: center;
+    }
+    h1{
+        margin-top: 11vh;
+        text-align: center;
+        color:#00B588;
+        display: flex;
+        justify-content: center;
+        font-family: 'Open sans', Arial;
+        font-weight: bold;
+        font-size: 3.7vw;
+    }
+    h2{
+        text-align: center;
+        color: rgb(192, 192, 192);
+            justify-content: center;
+            font-family: 'Open Sans', 'Segoe UI';
+            font-weight: lighter;
+            font-size: 2.6vw;
+            margin: -35px 0px -6px 0px; //arriba derecha abajo izquierda
+    }
+    .imgtam{
+        margin-top: 6vh;
+        height: 20vw;
+        width: 60vw;
+    }
+}
+
+//+++++++++++++++++++++++++++PARTE2+++++++++++++++++++++++++++//
+//+++++++++++++++++++++++++++PARTE2+++++++++++++++++++++++++++//
+//+++++++++++++++++++++++++++PARTE2+++++++++++++++++++++++++++//
+.contenedorParte2{
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;    
+    flex-grow: 1;
+    .bajo2{
+        width: auto;
+        h1{
+            margin-top: 5vw;
+            font-family: 'Open Sans';
+            color: #32ab8b;
+            font-size: 3.6vw;
+        }
+        p{
+            color:   #a6a7a6;
+            font-size: 1.9vw;
+        }
+    }
+    .bajo21{
+        width: auto;
+        table{
+            margin-top: 3.5vw;
+            text-align: left;
+            .th1{
+                color: rgb(87, 87, 87);
+                font-family: 'Open Sans', 'Segoe UI';
+                font-size: 18px;
+            }
+            .p{
+                color: white;
+            }
+            .th2{
+                color: #465c54;
+                font-size: 18px;
+                font-family: 'Open Sans', 'Segoe UI';
+            }
+            .th3{
+                color: #74807b;
+                font-size: 18px;
+                font-family: 'Open Sans', 'Segoe UI';
+            }
+        }
+    }
+}
